@@ -1,0 +1,297 @@
+/*********************************
+*** GENERAL STYLES ***************
+*********************************/
+
+* {
+	box-sizing: border-box;
+	color: #4a4a4a;
+	font-size: 1em;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/*********************************
+*** HEADER STYLES ***************
+*********************************/
+
+header {
+	margin: 0;
+	padding: 25px 0 45px 0;
+	width: 100%;
+	text-align: center;
+	background: #fafafa;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 25px;
+	font-size: 1.75em;
+}
+
+header .nav-items {
+	width: auto;
+	margin: 15px 0 0 22px;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+header .nav-items li {
+	background: #fff;
+	margin: 0 15px 5px 15px;
+	padding: 0px 0;
+}
+
+header .nav-items li a {
+	text-decoration: none;
+	width: 100%;
+	background: #fff;
+	text-align: center;
+	color: #4a4a4a;
+	font-weight: bold;
+	display: inline-block;
+	width: 100%;
+	background: #fff;
+	padding: 5px 0;
+}
+
+header img {
+	width: 80%;
+	margin: 45px auto 0;
+	padding: 0;
+	max-width: 200px;
+	border-radius: 15px;
+}
+
+header p {
+	width: 90%;
+	margin: 30px auto 0 auto;
+	color: #8e7f8e;
+	line-height: 1.5em;
+}
+
+/*********************************
+*** CONTENT STYLES ***************
+*********************************/
+
+section {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+section h2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+section h3 {
+	margin: 30px 0 0 0;
+	font-size: 1em;
+}
+
+section .section-list p {
+	color: #614a61;
+	line-height: 1.5em;
+	max-width: 70%;
+	margin: 15px auto 0 auto;
+}
+
+.section-list {
+	list-style: none;
+	padding: 0;
+}
+
+.section-list li {
+	margin-bottom: 30px;
+}
+
+.section-list li img {
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+	max-width: 290px;
+}
+
+/*********************************
+*** FOOTER STYLES ***************
+*********************************/
+
+footer {
+	margin: 0;
+	padding: 25px 0 0 0;
+	background: #fafafa;
+	text-align: center;
+}
+
+footer p {
+	line-height: 1.5em;
+	padding: 0 20px;	
+	color: #614a61;
+	max-width: 70%;
+	margin: 15px auto;
+}
+
+footer p a {
+	color: #4a4a4a;
+	font-weight: bold;
+	/*text-decoration: underline;*/
+}
+
+footer hr {
+	margin: 45px 0 20px 0;
+}
+
+footer .bottom {
+	vertical-align: top;
+	padding-bottom: 40px;
+}
+
+footer .student-name {
+	float: left;
+	margin-left: 15px;
+	margin-top: 3px;
+	font-weight: bold;
+	color: #4a4a4a;
+}
+
+footer .top-link {
+	float: right;
+	margin-right: 15px;
+}
+
+footer .top-link a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #4a4a4a;
+}
+
+footer .footer-menu {
+	display: none;
+}
+
+@media (min-width: 768px) {
+
+	header .nav-items li {
+		display: inline-block;
+		background: #fafafa;
+	}
+
+	header .nav-items li a {
+		background: #fafafa;
+	}
+
+	header p {
+		width: 58%;
+		text-align: left;
+		margin: 15px 0 15px 30px;
+	}
+
+	header img {
+		position: absolute;
+		right: 45px;
+		top: 45px;
+	}
+
+	.section-list li {
+		display: inline-block;
+		width: 40%;
+		vertical-align: top;
+	}
+
+	footer p {
+		width: 70%;
+		margin: 15px auto;
+	}
+
+	footer .top-link {
+		display: none;
+	}
+
+	footer .footer-menu {
+		display: block;
+		float: right;
+		margin-right: 30px;
+		margin-top: 0;
+	}
+
+	footer .footer-menu li {
+		display: inline-block;
+		padding: 0 15px;
+	}
+
+	footer .footer-menu li a {
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+}
+
+@media (min-width: 1024px) {
+
+	header {
+		height: 298px;
+	}
+
+	header h1 {
+		float: left;
+		margin-left: 30px;
+		width: 100%;
+		text-align: left;
+	}
+
+	header .nav-items {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+
+	header p {
+		width: 58%;
+		text-align: left;
+		margin: 15px 0 15px 30px;
+	}
+
+	header img {
+		position: absolute;
+		right: 77px;
+		top: 45px;
+	}	
+
+	.section-list li {
+		display: inline-block;
+		width: 30%;
+		vertical-align: top;
+	}
+
+	footer .top-link {
+		display: none;
+	}
+
+	footer .footer-menu {
+		display: block;
+		float: right;
+		margin-right: 30px;
+		margin-top: 0;
+	}
+
+	footer .footer-menu li {
+		display: inline-block;
+		padding: 0 15px;
+	}
+
+	footer .footer-menu li a {
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+}
